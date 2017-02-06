@@ -1,0 +1,85 @@
+#header{
+  padding: 10px;
+  background-color: rgb(26, 70, 185);
+  border-bottom: rgba(0, 0, 0, 0.57) 4px outset;
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(15, 242, 222);
+  color: white;
+  text-shadow: -1px 0 rgb(11, 195, 227), 0 1px rgb(11, 195, 227), 1px 0 rgb(11, 195, 227), 0 -1px rgb(11, 195, 227);
+  text-align: center;
+}
+
+#gameSquare{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 800px;
+  /*border: 1px black solid;*/
+}
+
+body{
+  background: rgba(254, 250, 0, 0.22);
+}
+
+#gameMenu{
+  z-index: 2;
+  background: rgba(148, 9, 255, 0.6);
+  position: absolute;
+  height: 530px;
+  width: inherit;
+
+
+}
+
+#startGame, #continueGame, #abandonGame{
+  width: 150px;
+  margin-top: 20px;
+}
+
+#continueGame, #abandonGame{
+  display: none;
+}
+
+#startGame {display: none;}
+
+.button-list{
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+#nicknameInput{
+  margin-left: 10px;
+}
+
+label{
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: white;
+  margin-top: 50px;
+  margin-left: 67px;
+  text-align: center;
+}
+
+#scoreTable{
+  border-collapse: collapse;
+
+  margin-left: 130px;
+  font-family: 'Roboto', sans-serif;
+}
+
+th, td{
+  min-width: 100px;
+  text-align: center;
+}
+
+#scoreLabel{
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 20px;
+  display: none;
+}
+
+#scoreLabel span{
+  color: cyan;
+}

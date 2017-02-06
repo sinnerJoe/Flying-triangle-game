@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script type="text/javascript" src = "lib/underscore.js"></script>
+    <script type="text/javascript" src = "lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src = "lib/backbone.js"></script>
+    <script type="text/javascript" src = "lib/two.min.js"></script>
+    <script type="text/javascript" src = "src/ship.js"> </script>
+    <script type="text/javascript" src = "src/rectangle.js"> </script>
+    <script type="text/javascript" src = "src/score-counter.js"> </script>
+    <script type="text/javascript" src = "src/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div id="header">
+      Flying triangle
+    </div>
+    <div class="container-fluid">
+    <div id="gameSquare" class = "col-md-6">
+      <div id="gameMenu" >
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+          <label for="nicknameInput" id="nickLabel">Nickname </label>
+          <input type="text" id="nicknameInput" />
+          <div class="button-list">
+            <button id="startGame" type="button" class="btn btn-primary">Lansează jocul</button>
+            <button id="continueGame"  type="button" class="btn btn-success" >Continuă</button>
+            <button id="abandonGame" type="button" class="btn btn-danger">Abandonează</button>
+          </div>
+          <div id="scoreLabel">Your score:<span> 0</span> </div>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <table id="scoreTable" cellpadding=30 border = 3>
+        <tr>
+          <th>Nickname</th>
+          <th>Score</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </body>
+</html>
